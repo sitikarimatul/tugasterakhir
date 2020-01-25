@@ -42,8 +42,8 @@ public class Loginactivity extends AppCompatActivity {
         setContentView(R.layout.activity_loginactivity);
 
         mRequestQueue = Volley.newRequestQueue(this);
-
         getSupportActionBar().hide();
+
         pDialog = new ProgressDialog(this);
         pDialog.setCancelable(false);
 

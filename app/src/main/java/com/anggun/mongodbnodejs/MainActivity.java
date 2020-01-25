@@ -37,7 +37,7 @@ public class MainActivity extends AppCompatActivity {
     private SessionManager session;
     private CircularRevealCardView cardKeluar;
     private ImageView tambahData;
-  private ImageView lihatdata;
+    private ImageView lihatdata;
     private  Button btnMenu;
     private ProgressDialog pDialog;
 
@@ -66,7 +66,7 @@ public class MainActivity extends AppCompatActivity {
       lihatdata.setOnClickListener(new View.OnClickListener() {
         @Override
         public void onClick(View v) {
-          Intent i = new Intent(MainActivity.this,LihatDataActivity.class);
+          Intent i = new Intent(MainActivity.this,ListMatakuliah.class);
           startActivity(i);
           finish();
         }

@@ -13,7 +13,9 @@
     android:supportsRtl="true"
     android:theme="@style/AppTheme"
     android:usesCleartextTraffic="true">
-    <activity android:name=".LihatDataActivity"></activity>
+    <activity android:name=".UbahAndDetail"></activity>
+    <activity android:name=".ListMatakuliah" />
+    <activity android:name=".LihatDataActivity" />
     <activity android:name=".MatakuliahActivity" />
     <activity android:name=".MainActivity" />
     <activity android:name=".RegistrasiActivity" />

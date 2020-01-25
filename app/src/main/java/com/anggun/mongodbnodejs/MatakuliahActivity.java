@@ -143,7 +143,7 @@ public class MatakuliahActivity extends AppCompatActivity {
               msg = response.getString("pesan");
             } else {
               msg = response.getString("pesan");
-              Intent i = new Intent(MatakuliahActivity.this,MainActivity.class);
+              Intent i = new Intent(MatakuliahActivity.this,LihatDataActivity.class);
               startActivity(i);
               finish();
             }

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:orientation="vertical"
+  android:gravity="center"
+  android:background="@color/colorPrimary">
+
+
+  <com.google.android.material.circularreveal.cardview.CircularRevealCardView
+    android:layout_width="match_parent"
+    android:layout_marginRight="16dp"
+    android:layout_marginLeft="16dp"
+    app:cardCornerRadius="5dp"
+    android:layout_gravity="center"
+    android:layout_height="400dp">
+    <LinearLayout
+      android:layout_width="match_parent"
+      android:gravity="center"
+      android:layout_marginTop="20dp"
+      android:layout_height="wrap_content"
+      android:orientation="vertical">
+      <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Kode Matakuliah"
+        android:id="@+id/kodemk"/>
+      <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nama Matakuliah"
+        android:id="@+id/namamk"/>
+      <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Jam"
+        android:id="@+id/jam"/>
+      <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Hari"
+        android:id="@+id/hari"/>
+
+      <EditText
+        android:id="@+id/ruangan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="ruang" />
+
+      <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="NIDN"
+        android:id="@+id/nidn"/>
+      <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nama Dosen"
+        android:id="@+id/nama"/>
+      <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rounded_background"
+        android:text="Submit"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:id="@+id/btnKirim"/>
+
+    </LinearLayout>
+  </com.google.android.material.circularreveal.cardview.CircularRevealCardView>
+
+</LinearLayout>
